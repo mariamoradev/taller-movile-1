@@ -1,0 +1,7 @@
+{
+  "name": "taller_correcto_movile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
