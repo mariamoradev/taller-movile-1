@@ -1,0 +1,22 @@
+body {
+    background: red($color: #ea1d1d);
+    font-size: xx-large;
+    font-family: "Anton";
+    font-weight: 800;
+    font-style: normal;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.c{
+    font-family: 'Anton';
+}
+
+
+.error-messages {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+    font-family: 'Anton';
+}

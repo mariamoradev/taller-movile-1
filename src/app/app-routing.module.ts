@@ -7,16 +7,26 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
+    path: '', redirectTo: 'task', pathMatch: 'full' },
+  {
+  path: 'home',
+  loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+},
+{
+  path: 'task',
+  loadChildren: () => import('./task/task.module').then(m => m.TaskPageModule)
+},
+
+  {
+    path: 'task',
+    loadChildren: () => import('./task/task.module').then( m => m.TaskPageModule)
+  }
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
-  ],
+  imports: [RouterModule.forRoot(routes)],
+
+    
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -35,3 +35,26 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+body {
+   
+    font-size: large;
+    font-weight: 800;
+    font-family: 'Anton';
+    
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.sub{
+    font-family: 'Anton';
+}
+
+
+
+.content {
+    text-align: center;
+}
+
+
